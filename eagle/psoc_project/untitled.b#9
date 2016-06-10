@@ -2529,15 +2529,13 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="VDDA"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C3" pad="1"/>
-<contactref element="C10" pad="1"/>
-<contactref element="C11" pad="1"/>
 <contactref element="R1" pad="2"/>
+<contactref element="U$1" pad="VDDD"/>
 <wire x1="39.79" y1="31.75" x2="39.79" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="26.65" y1="27.005" x2="39.79" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="27.15" y1="27.005" x2="39.79" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="26.65" y1="27.005" x2="27.15" y2="27.005" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="41.91" x2="26.65" y2="27.005" width="0" layer="19" extent="1-1"/>
-<wire x1="18.63" y1="25.4" x2="26.65" y2="27.005" width="0" layer="19" extent="1-1"/>
-<wire x1="1.69" y1="25.4" x2="18.63" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="3.49" y1="5.08" x2="1.69" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="3.49" y1="5.08" x2="26.65" y2="27.005" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWD_IO0">
 <contactref element="U$2" pad="PIN2"/>
@@ -2572,9 +2570,6 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="U$1" pad="P1_0"/>
 </signal>
-<signal name="N$8">
-<contactref element="U$1" pad="VDDD"/>
-</signal>
 <signal name="VCC2">
 <contactref element="C14" pad="1"/>
 <contactref element="C15" pad="1"/>
@@ -2583,6 +2578,11 @@ design rules under a new name.</description>
 <wire x1="1.69" y1="13.97" x2="27.65" y2="27.005" width="0" layer="19" extent="1-1"/>
 <wire x1="1.69" y1="10.16" x2="1.69" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="1.59" y1="5.08" x2="1.69" y2="10.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="C10" pad="1"/>
+<contactref element="C11" pad="1"/>
+<wire x1="1.69" y1="25.4" x2="18.63" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

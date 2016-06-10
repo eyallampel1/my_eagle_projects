@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4019,12 +4019,9 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
-<wire x1="200.66" y1="177.8" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="167.64" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="172.72" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="172.72" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="177.8" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="167.64" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="32"/>
@@ -4128,7 +4125,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="210.82" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="152.4" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
 <junction x="210.82" y="152.4"/>
-<wire x1="200.66" y1="160.02" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="165.1" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="31"/>
 <wire x1="129.54" y1="127" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
@@ -4138,9 +4135,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="172.72" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="152.4" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <junction x="200.66" y="152.4"/>
-<wire x1="213.36" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="165.1" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="160.02" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
